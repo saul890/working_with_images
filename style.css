@@ -1,0 +1,54 @@
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    margin-top: 40vh;
+    top: -100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    object-fit: scale-down;
+    overflow: hidden;
+   
+}
+
+.izzy{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    object-fit: scale-down;
+    overflow: hidden;
+   
+}
+
+.bel{
+    width: 900px;
+}
+
+.bel.one{
+    width: 200px;
+}
+
+.bel.two{
+    width: 150px;
+}
+
+.bel.three{
+    width: 100px;
+}
+
+
+
+
+.image{
+    width: 100px;
+}
+
+.gaps{
+    margin: 20%;
+}
